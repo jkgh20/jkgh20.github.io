@@ -3,8 +3,8 @@ title: jkgh20.github.io
 
 name: John Kim
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+# Removing or omitting this says: "No GitHub API authentication could be found."
+description: Unused
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/65121034?s=460&u=627609bd366af691151cc41ce2d2ba0eea0747c0&v=4
