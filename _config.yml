@@ -45,11 +45,3 @@ footer-links:
   youtube: channel/UC9w5jAYW6wfSybRKq9X26kw
 
 footer-text: © 2020 John Kim
-
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-
-exclude:
-  - README.md

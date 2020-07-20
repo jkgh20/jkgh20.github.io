@@ -8,3 +8,6 @@ To run locally, invoke:
 bundle install
 bundle exec serve jekyll
 ```
+
+Note: Since we're deploying with GitHub pages, we are locked to
+[these dependencies and versions](https://pages.github.com/versions/).
