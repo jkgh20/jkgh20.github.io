@@ -22,9 +22,8 @@ self-documenting itself.
 that I followed.
 
 1. In your repo's settings, add a custom domain in the GitHub Pages section.
-   Unlike the GitHub instructions, I added the `www` subdomain, since I was
-   getting SSL certificate errors otherwise. Once you have saved this change,
-   there should be a new commit that added a `CNAME` file with your domain.
+   Once you have saved this change, there should be a new commit that added a
+   `CNAME` file with your domain.
 1. Check the option to Enforce HTTPS. There's no reason not to as we are issued
    a certificate from Let's Encrypt for free.
 
@@ -47,15 +46,12 @@ This is what my DNS settings look like at the end:
 
 ## Validating our changes
 
-1. Navigating to `www.<your-domain>.com` in your web browser should take you to
-   `https://www.<your-domain>.com`.
-1. Navigating to `<your-domain>.com` should take you to
-   `https://www.<your-domain>.com`. If you want to strip the `www` subdomain,
-   change the custom domain field in your repo's settings, which will update the
-   CNAME file. Again, I had SSL errors attempting to navigate to the `www`
-   subdomain without it so I decided to keep it. Most browsers seem to hide it anyways.
-1. Navigating to `<username>.github.io` should take you to
-   `https://www.<your-domain>.com`.
+1. Navigating to `<your-domain>.com` should take you to your website at
+   `https://<your-domain>.com`.
+1. Navigating to `www.<your-domain>.com` should redirect you to
+   `https://<your-domain>.com`.
+1. Navigating to `<username>.github.io` should redirect you to
+   `https://<your-domain>.com`.
 
 See the
 [GitHub guide](https://docs.github.com/en/github/working-with-github-pages/troubleshooting-custom-domains-and-github-pages)
